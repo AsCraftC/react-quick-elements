@@ -8,7 +8,7 @@ En este proyecto agrupare todos los recursos que aprenda para aplicar a proyecto
  - **[React](https://reactjs.org/)** : Biblioteca Javascript de código abierto diseñada para crear interfaces de usuario con el objetivo de facilitar el desarrollo de aplicaciones en una sola página..
  - **[React Hook Form](https://react-hook-form.com/)** : Biblioteca para manejar formularios en React.
  - **[Zod](https://zod.dev/)** : Biblioteca de validación de esquemas para TypeScript.
- - **[TypeScript](https://www.typescriptlang.org/)** : Lenguaje de programación de código abierto desarrollado por Microsoft. Es un superconjunto de JavaScript que añade tipado estático opcional y otras características avanzadas, facilitando el desarrollo y mantenimiento de aplicaciones a gran escala.
+ - **[TypeScript](https://www.typescriptlang.org/)** : Lenguaje de programación de código abierto desarrollado por Microsoft. Es un derivado de JavaScript que añade tipado estático opcional y otras características avanzadas, facilitando el desarrollo y mantenimiento de aplicaciones a gran escala.
 
 ## Estructura del Proyecto
 

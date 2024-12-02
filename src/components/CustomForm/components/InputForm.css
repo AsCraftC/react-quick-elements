@@ -1,0 +1,29 @@
+.input{
+  width: 40rem;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  padding: 1rem;
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.input__label{
+  color: blue;
+  line-height: 1em;
+}
+.input__input{
+  padding: 1rem;
+  border: 1px solid blue;
+  border-radius: 4px;
+  background-color: whitesmoke;
+  font-family: 'Courier New', Courier, monospace;
+}
+.input__input--is-invalid{
+  border: 1px solid red;
+}
+.input__invalid-feedback{
+  color: red;
+  font-size: 1.5rem;
+  font-weight: 400;
+}

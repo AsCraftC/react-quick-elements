@@ -1,8 +1,9 @@
+import { CustomForm } from "../components"
 
 export const App = () => {
     return (
       <>
-        <h1>Hola Mundo</h1>
+        <CustomForm />
       </>
     )
   }
