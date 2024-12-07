@@ -16,15 +16,10 @@ export const InputForm = ({name, control, label, type, error} : Props) => {
       <div className='input'>
         <label className='input__label' htmlFor={name}> {label} </label>
         <Controller 
-          control = {control}
           name = {name}
+          control = {control}
           render  = { ({field}) =>
-            (<input 
-              id    = {name}
-              type  = {type}
-              {... field}
-              className= {`input__input ${error && 'input__input--is-invalid'}`}
-            />)
+            <input id = {name} type = {type} {... field} className= {`input__input ${error && 'input__input--is-invalid'}`}/>
           }
         />
         {error && <div className='input__invalid-feedback'>{error.message}</div>}

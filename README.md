@@ -14,10 +14,26 @@ En este proyecto agrupare todos los recursos que aprenda para aplicar a proyecto
 
 ```bash
 src/
-├─  pages/
-│     └─  App.tsx     # Pagina inicial de la aplicación
-├─  main.tsx          # Punto de entrada de aplicación
-└─  main.css          # Variables y reset de css 
+  ├─  assets/
+  ├─  components/
+  │     ├─  customForm/
+  │     │     ├─  components/
+  │     │     │     ├─  ButtonForm.css  # Estilos de botón
+  │     │     │     ├─  ButtonForm.tsx  # Componente de estilo de botón
+  │     │     │     ├─  InputForm.css   # Estilo de input
+  │     │     │     ├─  InputForm.txs   # Componente de input
+  │     │     │     └─  index.ts        # Barril de componentes de formulario
+  │     │     ├─  model/
+  │     │     │     └─  form.model.ts   # Esquema de formulario y validaciones en zod
+  │     │     └─  CustomForm.tsx        # Plantilla de formulario
+  │     └─  index.ts                    # Barril de componentes generales
+  ├─  hooks/
+  │     ├─
+  │     └─  useFetch.ts                 # Custom hook para realizar consultas a api
+  ├─  pages/    
+  │     └─  App.tsx                     # Pagina inicial de la aplicación
+  ├─  main.tsx                          # Punto de entrada de aplicación
+  └─  main.css                          # Variables y reset de css 
 ```
 
 ## Instalación
